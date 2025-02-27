@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container{
+    background: url(fotograf/midnight\ dark\ navy\ blue\ quilt\ blender\ Fabric\ _\ Spoonflower.jpg);
+  }
+  body {
+    background-color: #f4f4f4;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background-color: #007BFF;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar ul li a.active {
+    color: yellow;
+  }
+  
+  .center {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1, h2 {
+    font-size: 4em;
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-weight: normal;
+    color: #ffffff;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #ffffff;
+  }
+  
